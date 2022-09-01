@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  background-image: url(images/Best-Winter-Photos.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 90vh;
+  padding: 25px;
+}
+.appSummer{
+  text-align: center;
+  background-image: url(images/Summer-season.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 90vh;
+  padding: 25px;
+}
+
+.searchBox {
+  width: 90%;
+  height: 48px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  color: #313131;
+  outline: none;
+  border: none;
+  box-shadow: 3px 3px rgb(0 0 0 / 30%);
+}
+.location {
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 1px rgba(50, 50, 70, 0.5);
+  margin-top: 70px;
+}
+.date {
+  font-size: 33px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 1px rgb(50 50 70 / 50%);
+  font-style: oblique;
+}
+
+.temperature {
+  font-size: 128px;
+  font-weight: bolder;
+  text-shadow: 3px 1px rgb(50 50 70 / 50%);
+  margin-top: 48 px;
+  color: #fff;
+  /* box-sizing: border-box; */
+  display: inline-block;
+  background-color: rgb(255 255 255 / 42%);
+  box-shadow: 3px 6px rgb(0 0 0 / 20%);
+  padding: 17px 47px;
+  border-radius: 25px;
+  margin-top: 55px;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+}
+.temp_sibling{
+  margin-top: 48 px;
+  font-weight: bolder;
+  text-shadow: 3px 3px rgb(50 50 70 / 50%);
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+  background-color: rgb(255 255 255 / 42%);
+  box-shadow: 3px 6px rgb(0 0 0 / 20%);
+  padding: 17px 47px;
+  border-radius: 20px;
+  margin-top: 55px;
+
+}
+.min{
+  margin-right:  25px;
+
+}
+
+.weather{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #fff;
+  margin-top: 20px;
+
+}
+.button{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #313131;
+  border-radius: 30px;
+  box-shadow: 3px 6px rgb(0 0 0 / 20%);
+  padding: 10px 14px;
+  margin: 10px;
+}
+.application{
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+.Error{
+     margin-top: 200px;
+     font-size: 55px;
+     color: rgb(206, 25, 25);
+     text-shadow: 3px 1px rgb(9 43 47 / 50%);     
+}
+.map-div {
+  width: 60%;
+  height: auto;
+  margin: 10px auto;
+  background-color: white;
+}
+@media only screen and (max-width :500px)
+{
+  .temperature{
+    font-size: 100px;
+
+  }
+}
+@media only screen and (max-width :500px){
+     .map-div{
+       width: 95%;
+     }       
+}
+@media only screen and (max-width:500px){
+  .App{
+    background-size: cover;
+  }
+  
+}
